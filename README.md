@@ -5,6 +5,7 @@ A collection of telefrag-free-32-spawns entity files and means to install them (
 
 ## Description
 > entities define all aspects of a map that make a map playable and interactive
+
 [Wiki: Entity - TWHL: Half-Life and Source Mapping Tutorials and Resources](https://twhl.info/wiki/page/entity)
 
 Entity file is a plain text file storing a list of entities. It can be exported from and imported into the map (BSP file) using ripent.
