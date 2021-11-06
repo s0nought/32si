@@ -1,0 +1,1308 @@
+{
+"mapversion" "220"
+"wad" "de_halla.wad;../valve/halflife.wad;"
+"sounds" "1"
+"gametitle" "0"
+"startdark" "0"
+"MaxRange" "5000"
+"skyname" "badlands"
+"classname" "worldspawn"
+}
+{
+"angle" "135"
+"origin" "784 -320 -50"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "688 -320 -50"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "784 -224 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "688 -224 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "784 -128 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "688 -128 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "976 -32 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "880 -32 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "784 -32 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "688 -32 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "784 64 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "688 64 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "784 160 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "688 160 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "784 256 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "688 256 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "784 352 -38"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "688 352 -46"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "-752 3376 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"origin" "-848 3376 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"origin" "-944 3376 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"origin" "-1040 3376 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"origin" "-752 3280 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"origin" "-848 3280 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"origin" "-1040 3280 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"origin" "-848 3184 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"origin" "-944 3184 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"origin" "-1040 3184 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"origin" "-848 3088 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "0"
+"origin" "-944 3088 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "0"
+"origin" "-1040 3088 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "0"
+"origin" "-848 2992 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "0"
+"origin" "-944 2992 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "0"
+"origin" "-1040 2992 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "0"
+"origin" "-656 2896 -64"
+"classname" "info_player_start"
+}
+{
+"angle" "0"
+"origin" "-752 2896 -64"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"skin" "0"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"classname" "func_illusionary"
+}
+{
+"model" "*2"
+"rendermode" "0"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"angles" "0 166.6 0"
+"model" "models/de_halla/halla_palmtree1.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-96 -48 192"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -120 0"
+"model" "models/de_halla/halla_palmtree1.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-928 3296 204"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 120 0"
+"model" "models/de_halla/halla_palmtree1.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-608 2432 332"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -133.0 0"
+"model" "models/de_halla/halla_palmtree1.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "112 576 224"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -33.7 0"
+"model" "models/de_halla/halla_palmtree1.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "976 1536 200"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 105 0"
+"model" "models/de_halla/halla_palmtree1.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "1664 320 256"
+"classname" "cycler_sprite"
+}
+{
+"model" "*4"
+"zhlt_lightflags" "2"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"skin" "0"
+"classname" "func_illusionary"
+}
+{
+"model" "*5"
+"zhlt_lightflags" "2"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*6"
+"rendermode" "0"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*7"
+"renderamt" "255"
+"zhlt_lightflags" "2"
+"rendermode" "4"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "-112 -576 384"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "-112 -16 384"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "112 384 416"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "-112 896 448"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "176 1408 528"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "176 2048 524"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "-48 2560 516"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "1008 2048 392"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "752 1536 400"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "656 1024 448"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "656 640 448"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "656 128 384"
+"classname" "cycler_sprite"
+}
+{
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 90 0"
+"model" "models/de_halla/halla_light1.mdl"
+"origin" "656 -384 392"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade1a.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "208 512 40"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -90 0"
+"model" "models/de_halla/halla_shade3.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "488 2256 -48"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 135 0"
+"model" "models/de_halla/halla_shade1b.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "158 -286 216"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 135 0"
+"model" "models/de_halla/halla_shade1a.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "158 -286 104"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade2a.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "104 -592 336"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"model" "models/de_halla/halla_shade2b.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-168 448 144"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"model" "models/de_halla/halla_shade2b.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-168 576 144"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"model" "models/de_halla/halla_shade2b.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "600 -64 112"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"model" "models/de_halla/halla_shade2a.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "600 -64 0"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"model" "models/de_halla/halla_shade2b.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "600 64 112"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"model" "models/de_halla/halla_shade2c.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-40 1304 272"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"model" "models/de_halla/halla_shade2c.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-40 1304 152"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"model" "models/de_halla/halla_shade2b.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-104 320 208"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"model" "models/de_halla/halla_shade2b.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-104 320 80"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade2a.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "232 512 160"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade2a.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "232 384 288"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade2a.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "232 256 288"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade2c.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "168 696 208"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade2c.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "168 840 336"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade2c.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "168 696 336"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade2c.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "1000 1936 192"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade2c.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "1000 2064 192"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade2a.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "328 2504 320"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 180 0"
+"model" "models/de_halla/halla_shade2a.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "328 2360 320"
+"classname" "cycler_sprite"
+}
+{
+"model" "*8"
+"zhlt_lightflags" "2"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"skin" "0"
+"classname" "func_illusionary"
+}
+{
+"model" "*9"
+"zhlt_lightflags" "2"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"skin" "0"
+"classname" "func_illusionary"
+}
+{
+"model" "*10"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"skin" "0"
+"classname" "func_illusionary"
+}
+{
+"model" "*11"
+"zhlt_lightflags" "2"
+"rendermode" "0"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*12"
+"zhlt_lightflags" "2"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*13"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*14"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*15"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*16"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*17"
+"rendermode" "0"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*18"
+"classname" "func_bomb_target"
+}
+{
+"model" "*19"
+"classname" "func_bomb_target"
+}
+{
+"angles" "0 30 0"
+"model" "models/de_halla/halla_antenna1a.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-160 288 160"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -45 0"
+"model" "models/de_halla/halla_antenna1b.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-832 3536 256"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -150 0"
+"model" "models/de_halla/halla_antenna1b.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-1168 2720 256"
+"classname" "cycler_sprite"
+}
+{
+"angles" "15 -45 0"
+"model" "models/de_halla/halla_antenna1b.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "-672 2992 256"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -135 0"
+"model" "models/de_halla/halla_antenna1b.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "304 544 208"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 135 0"
+"model" "models/de_halla/halla_antenna1a.mdl"
+"rendermode" "0"
+"renderfx" "0"
+"origin" "1008 1312 304"
+"classname" "cycler_sprite"
+}
+{
+"model" "*20"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*21"
+"renderamt" "255"
+"rendermode" "4"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*22"
+"renderamt" "140"
+"rendermode" "5"
+"renderfx" "0"
+"skin" "0"
+"classname" "func_illusionary"
+}
+{
+"model" "*23"
+"renderamt" "100"
+"rendermode" "5"
+"renderfx" "0"
+"skin" "0"
+"classname" "func_illusionary"
+}
+{
+"model" "*24"
+"renderamt" "60"
+"rendermode" "5"
+"renderfx" "0"
+"skin" "0"
+"classname" "func_illusionary"
+}
+{
+"model" "*25"
+"renderamt" "100"
+"rendermode" "5"
+"renderfx" "0"
+"skin" "0"
+"classname" "func_illusionary"
+}
+{
+"model" "*26"
+"renderamt" "70"
+"rendermode" "5"
+"renderfx" "0"
+"skin" "0"
+"classname" "func_illusionary"
+}
+{
+"model" "*27"
+"renderamt" "70"
+"rendermode" "2"
+"renderfx" "0"
+"stopsnd" "0"
+"movesnd" "0"
+"skin" "-3"
+"spawnflags" "0"
+"angle" "-2"
+"classname" "func_water"
+}
+{
+"model" "*28"
+"WaveHeight" "1"
+"renderamt" "70"
+"rendermode" "2"
+"renderfx" "0"
+"stopsnd" "0"
+"movesnd" "0"
+"skin" "-3"
+"spawnflags" "0"
+"angle" "-1"
+"classname" "func_water"
+}
+{
+"angles" "0 30 0"
+"renderamt" "220"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1a.mdl"
+"origin" "1848.3 -4 -96"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 90 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "1848.3 -84 -96"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -105 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "1864.3 44 -96"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 135 0"
+"renderamt" "220"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1b.mdl"
+"origin" "1848.3 76 -96"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 30 0"
+"renderamt" "220"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1a.mdl"
+"origin" "1088.3 1452 -88"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 120 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "1128.3 1476 -94"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -75.2 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "1152.3 1692 -112"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -75.2 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "-256 2504 -8"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -135 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "-320 2504 2"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -30 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "-928 2544 -80"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 165 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "-1088 2464 -80"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -60 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "-1072 2400 -80"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 135 0"
+"renderamt" "220"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1b.mdl"
+"origin" "1240.3 1692 -120"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 30 0"
+"renderamt" "220"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1a.mdl"
+"origin" "584.3 -372 -112"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 90 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "584.3 -452 -96"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -45 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "568.3 -548 -92"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -150 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "912 64 -128"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -45 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "976 32 -128"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -135 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "588.3 -504 -92"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -105 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "600.3 -324 -112"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -60 0"
+"renderamt" "200"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1c.mdl"
+"origin" "440.3 -276 -112"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 135 0"
+"renderamt" "220"
+"rendermode" "2"
+"renderfx" "0"
+"model" "models/de_halla/halla_grass1b.mdl"
+"origin" "520.3 -308 -112"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 90 0"
+"rendermode" "0"
+"renderfx" "0"
+"model" "models/de_halla/halla_roof1.mdl"
+"origin" "1472 704 560"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"model" "models/de_halla/halla_roof1.mdl"
+"origin" "1472 320 560"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -90 0"
+"rendermode" "0"
+"renderfx" "0"
+"model" "models/de_halla/halla_roof1.mdl"
+"origin" "1088 448 560"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -90 0"
+"model" "models/de_halla/halla_wire2a.mdl"
+"origin" "-64 1228 816"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 90 0"
+"model" "models/de_halla/halla_wire2b.mdl"
+"origin" "192 208 656"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 90 0"
+"model" "models/de_halla/halla_wire2a.mdl"
+"origin" "256 2804 864"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -180 0"
+"model" "models/de_halla/halla_wire1a.mdl"
+"origin" "496 2304 768"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"model" "models/de_halla/halla_wire1a.mdl"
+"origin" "480 1024 752"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 0 0"
+"model" "models/de_halla/halla_wire1a.mdl"
+"origin" "-208 640 688"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 90 0"
+"model" "models/de_halla/halla_wire2b.mdl"
+"origin" "256 1936 864"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -90 0"
+"model" "models/de_halla/halla_wire3a.mdl"
+"origin" "-256 -560 616"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 90 0"
+"model" "models/de_halla/halla_wire3a.mdl"
+"origin" "192 656 672"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 90 0"
+"model" "models/de_halla/halla_wire4a.mdl"
+"origin" "1152 80 672"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 -90 0"
+"model" "models/de_halla/halla_wire4a.mdl"
+"origin" "448 320 688"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 90 0"
+"model" "models/de_halla/halla_wire2b.mdl"
+"origin" "256 1456 848"
+"classname" "cycler_sprite"
+}
+{
+"angles" "0 90 0"
+"model" "models/de_halla/halla_wire1a.mdl"
+"origin" "896 1008 688"
+"classname" "cycler_sprite"
+}
+{
+"model" "*29"
+"rendermode" "0"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*30"
+"rendermode" "0"
+"renderfx" "0"
+"classname" "func_wall"
+}
+{
+"model" "*31"
+"classname" "func_wall"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "1"
+"message" "de_halla/halla_wind1.wav"
+"health" "0.6"
+"origin" "0 0 640"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "4"
+"message" "de_halla/halla_wind2.wav"
+"health" "0.75"
+"origin" "-256 -128 -32"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "2"
+"message" "de_halla/halla_wind2.wav"
+"health" "0.5"
+"origin" "16 1488 96"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "4"
+"message" "de_halla/halla_wind2.wav"
+"health" "0.75"
+"origin" "-656 1808 240"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "2"
+"message" "de_halla/halla_water1.wav"
+"health" "4"
+"origin" "1664 496 -32"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "8"
+"message" "de_halla/halla_music1.wav"
+"health" "5"
+"origin" "1152 448 464"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "4"
+"message" "de_halla/halla_cicadas1.wav"
+"health" "2"
+"origin" "-1040 2496 -48"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "2"
+"message" "de_halla/halla_cicadas1.wav"
+"health" "2"
+"origin" "-288 2512 32"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "4"
+"message" "de_halla/halla_cicadas1.wav"
+"health" "2"
+"origin" "1120 1568 -48"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "2"
+"message" "de_halla/halla_cicadas1.wav"
+"health" "2"
+"origin" "1824 -16 -64"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "2"
+"message" "de_halla/halla_cicadas1.wav"
+"health" "2"
+"origin" "912 32 -64"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "4"
+"message" "de_halla/halla_cicadas1.wav"
+"health" "2"
+"origin" "592 -432 -48"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "2"
+"message" "de_halla/halla_bees1.wav"
+"health" "6"
+"origin" "-96 688 16"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "2"
+"message" "de_halla/halla_bees1.wav"
+"health" "6"
+"origin" "544 2032 0"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "2"
+"message" "de_halla/halla_bees1.wav"
+"health" "6"
+"origin" "848 1760 -16"
+"classname" "ambient_generic"
+}
+{
+"pitchstart" "100"
+"pitch" "100"
+"spawnflags" "2"
+"message" "de_halla/halla_bees1.wav"
+"health" "6"
+"origin" "-800 2880 -32"
+"classname" "ambient_generic"
+}
+{
+"model" "*32"
+"dmg" "500"
+"damagetype" "32"
+"classname" "trigger_hurt"
+}
+{
+"origin" "0 -400 32"
+"angle" "30"
+"targetname" "camera1"
+"target" "camera_target1"
+"classname" "trigger_camera"
+}
+{
+"origin" "64 1648 144"
+"targetname" "camera_target1"
+"classname" "info_target"
+}
+{
+"origin" "688 512 80"
+"angle" "30"
+"targetname" "camera2"
+"target" "camera_target2"
+"classname" "trigger_camera"
+}
+{
+"origin" "736 -384 16"
+"targetname" "camera_target2"
+"classname" "info_target"
+}
+{
+"origin" "-1088 3488 112"
+"angle" "345"
+"targetname" "camera3"
+"target" "camera_target3"
+"classname" "trigger_camera"
+}
+{
+"origin" "-768 2896 -16"
+"targetname" "camera_target3"
+"classname" "info_target"
+}
+{
+"_falloff" "1"
+"_fade" "0.00001"
+"origin" "0 352 640"
+"angles" "0 48 0"
+"pitch" "-40"
+"_light" "244 125 85 67"
+"classname" "light_environment"
+}
+ 
