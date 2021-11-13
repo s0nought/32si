@@ -3,3 +3,6 @@ as_coast.ent, as_evil.ent, as_midnight_docks.ent, concord_redone.ent, cs_bikinir
 
 version 2 (2021.11.10) - added 5 files
 de_ahram.ent, de_cbble_cz.ent, de_lite.ent, de_rebelzone.ent, de_russka.ent
+
+version 3 (2021.11.13) - added 5 files
+cs_assault_hd.ent, de_best.ent, de_jungletemple.ent, de_season_css.ent, dm_farero.ent
