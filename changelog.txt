@@ -6,3 +6,6 @@ de_ahram.ent, de_cbble_cz.ent, de_lite.ent, de_rebelzone.ent, de_russka.ent
 
 version 3 (2021.11.13) - added 5 files
 cs_assault_hd.ent, de_best.ent, de_jungletemple.ent, de_season_css.ent, dm_farero.ent
+
+version 4 (2021.12.01) - added 5 files
+cs_thunder.ent, de_altstadt2k.ent, de_aztec2.ent, de_cevo_concrete2.ent, de_priory_spawns.ent
