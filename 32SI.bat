@@ -2,6 +2,17 @@
 
 SETLOCAL EnableExtensions EnableDelayedExpansion
 
+GOTO RequirementsCheck
+
+
+
+:RequirementsCheck
+
+IF NOT "%OS%" == "Windows_NT" (
+    ECHO This version of Windows is not supported. Requires Windows_NT
+    GOTO ExitWithCode1
+)
+
 GOTO Initialization
 
 
@@ -18,9 +29,18 @@ GOTO Initialization
 :Initialization
 
 SET "ProgramName=%~nx0"
-SET "ProgramVersion=2021.12.03"
+SET "ProgramVersion=2021.12.07"
 
 SET "WorkingDir=%~dp0"
+
+IF "%~1" == "/?" GOTO Syntax
+IF "%~1" == "-h" GOTO Syntax
+IF "%~1" == "--help" GOTO Syntax
+
+IF "%~1" == "" (
+    ECHO No arguments specified. Try '%ProgramName% /?' for help
+    GOTO ExitWithCode1
+)
 
 SET "DLURL32SI=https://gamebanana.com/mods/333654"
 SET "DLURLRipEnt=https://files.gamebanana.com/bitpit/ripent_from_vhltv34.zip"
@@ -31,19 +51,6 @@ IF "%PROCESSOR_ARCHITECTURE%" == "x86" (
     IF NOT DEFINED PROCESSOR_ARCHITEW6432 (
         SET "RipEntAppName=ripent.exe"
     )
-)
-
-GOTO RequirementsCheck
-
-
-
-:RequirementsCheck
-
-IF NOT "%OS%" == "Windows_NT" (
-    ECHO This version of Windows is not supported. Requires Windows_NT
-    CALL :PressToExitOrPause "%WaitBeforeExitSec%"
-    ENDLOCAL
-    EXIT /B 1
 )
 
 GOTO LoadConfig
@@ -115,31 +122,23 @@ GOTO IntegrityCheck
 
 :IntegrityCheck
 
-ECHO Integrity check
-
 SET "EntDir=%WorkingDir%ent\"
 SET "ToolsDir=%WorkingDir%tools\"
 SET "RipEntApp=%WorkingDir%tools\%RipEntAppName%"
 
 IF NOT EXIST "%EntDir%" (
     ECHO Cannot find: %EntDir%
-    CALL :PressToExitOrPause "%WaitBeforeExitSec%"
-    ENDLOCAL
-    EXIT /B 1
+    GOTO ExitWithCode1
 )
 
 IF NOT EXIST "%ToolsDir%" (
     ECHO Cannot find: %ToolsDir%
-    CALL :PressToExitOrPause "%WaitBeforeExitSec%"
-    ENDLOCAL
-    EXIT /B 1
+    GOTO ExitWithCode1
 )
 
 IF NOT EXIST "%RipEntApp%" (
     ECHO Cannot find: %RipEntApp%. ripent can be downloaded from %DLURLRipEnt%
-    CALL :PressToExitOrPause "%WaitBeforeExitSec%"
-    ENDLOCAL
-    EXIT /B 1
+    GOTO ExitWithCode1
 )
 
 FOR /F "usebackq" %%A IN (`DIR /A-D /B "%EntDir%\*.ent" 2^>NUL ^| FIND /C /V ""`) DO (
@@ -148,27 +147,14 @@ FOR /F "usebackq" %%A IN (`DIR /A-D /B "%EntDir%\*.ent" 2^>NUL ^| FIND /C /V ""`
 
 IF %EntFilesCount% EQU 0 (
     ECHO No entity files found. Entity files can be downloaded from %DLURL32SI%
-    CALL :PressToExitOrPause "%WaitBeforeExitSec%"
-    ENDLOCAL
-    EXIT /B 1
+    GOTO ExitWithCode1
 )
 
-GOTO ArgumentsParsing
+GOTO HandleCLArguments
 
 
 
-:ArgumentsParsing
-
-IF "%~1" == "/?" GOTO Syntax
-IF "%~1" == "-h" GOTO Syntax
-IF "%~1" == "--help" GOTO Syntax
-
-IF "%~1" == "" (
-    ECHO No arguments specified. Try '%ProgramName% /?' for help
-    CALL :PressToExitOrPause "%WaitBeforeExitSec%"
-    ENDLOCAL
-    EXIT /B 1
-)
+:HandleCLArguments
 
 IF EXIST "%~f1" (
     SET "InputObjType=File"
@@ -182,17 +168,13 @@ IF "%InputObjType%" == "File" GOTO HandleInputFile
 
 IF "%InputObjType%" == "Folder" GOTO HandleInputFolder
 
-GOTO Finalization
-
 
 
 :HandleInputFile
 
 IF NOT "%~x1" == ".bsp" (
     ECHO Cannot process %~nx1 - not a BSP file
-    CALL :PressToExitOrPause "%WaitBeforeExitSec%"
-    ENDLOCAL
-    EXIT /B 1
+    GOTO ExitWithCode1
 )
 
 ECHO:
@@ -212,9 +194,7 @@ SET "NewEntFile=%EntDir%%BspFileName%.ent"
 
 IF NOT EXIST "%NewEntFile%" (
     ECHO Cannot find: %NewEntFile%
-    CALL :PressToExitOrPause "%WaitBeforeExitSec%"
-    ENDLOCAL
-    EXIT /B 1
+    GOTO ExitWithCode1
 )
 
 IF %BackupOriginalEnt% EQU 1 (
@@ -233,7 +213,7 @@ ECHO:
 "%RipEntApp%" -import "%BspFile%" &&^
 DEL %EntFileNextToBsp%
 
-GOTO Finalization
+GOTO ExitWithCode0
 
 
 
@@ -245,9 +225,7 @@ FOR /F "usebackq" %%A IN (`DIR /A-D /B "%~f1\*.bsp" 2^>NUL ^| FIND /C /V ""`) DO
 
 IF %BspFilesCount% EQU 0 (
     ECHO No BSP files found in %~f1
-    CALL :PressToExitOrPause "%WaitBeforeExitSec%"
-    ENDLOCAL
-    EXIT /B 1
+    GOTO ExitWithCode1
 )
 
 ECHO:
@@ -295,7 +273,7 @@ ECHO:
 
 POPD
 
-GOTO Finalization
+GOTO ExitWithCode0
 
 
 
@@ -311,13 +289,22 @@ ECHO DESCRIPTION
 ECHO   Update entities in a single file or a collection of files
 ECHO:
 ECHO ABOUT
-ECHO   https://github.com/s0nought
+ECHO   https://github.com/s0nought/32si/blob/master/README.md
 
-GOTO Finalization
-
-
-
-:Finalization
-CALL :PressToExitOrPause "%WaitBeforeExitSec%"
+PAUSE
 ENDLOCAL
 EXIT /B
+
+
+
+:ExitWithCode0
+CALL :PressToExitOrPause "%WaitBeforeExitSec%"
+ENDLOCAL
+EXIT /B 0
+
+
+
+:ExitWithCode1
+PAUSE
+ENDLOCAL
+EXIT /B 1
