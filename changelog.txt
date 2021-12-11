@@ -12,3 +12,6 @@ cs_thunder.ent, de_altstadt2k.ent, de_aztec2.ent, de_cevo_concrete2.ent, de_prio
 
 version 5 (2021.12.02) - added 5 files
 cs_vendetta.ent, de_boondocks.ent, de_chernobyl.ent, de_japan.ent, de_manila.ent
+
+version 6 (2021.12.11) - added 5 files
+cs_vercetti.ent, cs_firstnoel.ent, de_morningsun.ent, de_arizona.ent, de_bretagne.ent
