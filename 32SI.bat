@@ -29,7 +29,7 @@ GOTO Initialization
 :Initialization
 
 SET "ProgramName=%~nx0"
-SET "ProgramVersion=2021.12.07"
+SET "ProgramVersion=2022.01.10"
 
 SET "WorkingDir=%~dp0"
 
@@ -43,7 +43,6 @@ IF "%~1" == "" (
 )
 
 SET "DLURL32SI=https://gamebanana.com/mods/333654"
-SET "DLURLRipEnt=https://files.gamebanana.com/bitpit/ripent_from_vhltv34.zip"
 
 SET "RipEntAppName=ripent_x64.exe"
 
@@ -137,7 +136,7 @@ IF NOT EXIST "%ToolsDir%" (
 )
 
 IF NOT EXIST "%RipEntApp%" (
-    ECHO Cannot find: %RipEntApp%. ripent can be downloaded from %DLURLRipEnt%
+    ECHO Cannot find: %RipEntApp%
     GOTO ExitWithCode1
 )
 

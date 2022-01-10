@@ -1,4 +1,4 @@
-# Ignore executables
-# Ignore ZIP archives
-*.exe
+scripts/
+tools/
+CheckForUpdates.bat
 *.zip

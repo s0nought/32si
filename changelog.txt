@@ -1,17 +1,86 @@
-version 1 (2021.11.07) - 37 files
-as_coast.ent, as_evil.ent, as_midnight_docks.ent, concord_redone.ent, cs_bikiniresort.ent, cs_botanical.ent, cs_libre.ent, cs_mansion_cz_b2.ent, cs_mari.ent, cs_paris.ent, de_alcatraz.ent, de_allahakbar.ent, de_breeze.ent, de_bright.ent, de_burscheid.ent, de_callipolia.ent, de_cevo_crete.ent, de_fabrica.ent, de_fence_rc1.ent, de_flow_b4.ent, de_halla.ent, de_jihad.ent, de_korbin.ent, de_luxor.ent, de_mog.ent, de_mountainhamlet.ent, de_pipeline.ent, de_pripyat.ent, de_roadhouse.ent, de_rotterdam_cz.ent, de_seaside2k.ent, de_slap.ent, de_snowball.ent, de_stadium_cz.ent, de_sunday.ent, de_valence.ent, de_vine.ent
+version 1 (2021.11.07) - added 37 files
+as_coast.ent
+as_evil.ent
+as_midnight_docks.ent
+concord_redone.ent
+cs_bikiniresort.ent
+cs_botanical.ent
+cs_libre.ent
+cs_mansion_cz_b2.ent
+cs_mari.ent
+cs_paris.ent
+de_alcatraz.ent
+de_allahakbar.ent
+de_breeze.ent
+de_bright.ent
+de_burscheid.ent
+de_callipolia.ent
+de_cevo_crete.ent
+de_fabrica.ent
+de_fence_rc1.ent
+de_flow_b4.ent
+de_halla.ent
+de_jihad.ent
+de_korbin.ent
+de_luxor.ent
+de_mog.ent
+de_mountainhamlet.ent
+de_pipeline.ent
+de_pripyat.ent
+de_roadhouse.ent
+de_rotterdam_cz.ent
+de_seaside2k.ent
+de_slap.ent
+de_snowball.ent
+de_stadium_cz.ent
+de_sunday.ent
+de_valence.ent
+de_vine.ent
 
 version 2 (2021.11.10) - added 5 files
-de_ahram.ent, de_cbble_cz.ent, de_lite.ent, de_rebelzone.ent, de_russka.ent
+de_ahram.ent
+de_cbble_cz.ent
+de_lite.ent
+de_rebelzone.ent
+de_russka.ent
 
 version 3 (2021.11.13) - added 5 files
-cs_assault_hd.ent, de_best.ent, de_jungletemple.ent, de_season_css.ent, dm_farero.ent
+cs_assault_hd.ent
+de_best.ent
+de_jungletemple.ent
+de_season_css.ent
+dm_farero.ent
 
 version 4 (2021.12.01) - added 5 files
-cs_thunder.ent, de_altstadt2k.ent, de_aztec2.ent, de_cevo_concrete2.ent, de_priory_spawns.ent
+cs_thunder.ent
+de_altstadt2k.ent
+de_aztec2.ent
+de_cevo_concrete2.ent
+de_priory_spawns.ent
 
 version 5 (2021.12.02) - added 5 files
-cs_vendetta.ent, de_boondocks.ent, de_chernobyl.ent, de_japan.ent, de_manila.ent
+cs_vendetta.ent
+de_boondocks.ent
+de_chernobyl.ent
+de_japan.ent
+de_manila.ent
 
 version 6 (2021.12.11) - added 5 files
-cs_vercetti.ent, cs_firstnoel.ent, de_morningsun.ent, de_arizona.ent, de_bretagne.ent
+cs_vercetti.ent
+cs_firstnoel.ent
+de_morningsun.ent
+de_arizona.ent
+de_bretagne.ent
+
+version 7 (2022.01.10) - overhaul
+Added:
+- ripent.exe
+- ripent_x64.exe
+- Vluzacn's ZHLT v34.zip
+
+Removed:
+- CheckForUpdates.bat
+- scripts directory
+
+Notes:
+No ent files were added in this update.
