@@ -1,4 +1,4 @@
-scripts/
-tools/
-CheckForUpdates.bat
+ent/
+
+*.exe
 *.zip
