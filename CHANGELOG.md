@@ -1,3 +1,14 @@
+# v 9
+
+2023.10.01
+
+Added support for 5 maps:
+- cs_cafebank
+- de_17buddies_Alexandria
+- de_52leon
+- cs_cisco_b2
+- cs_neighborhood
+
 # v 8
 
 2023.09.25
